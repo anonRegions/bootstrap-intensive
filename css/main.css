@@ -1,5 +1,49 @@
 .hero{
-	background:url('../img/hero_image.jpg');
+	background:
+	linear-gradient(
+		rgba(64, 64, 64, 0.45),
+		rgba(64, 64, 64, 0.45)
+		),
+	url('../img/hero_image.jpg');
 	background-size:cover;
 	height:600px;
+}
+
+.home-shine{
+	background:linear-gradient(
+		rgba(64, 64, 64, 0.45),
+		rgba(64, 64, 64, 0.45)
+		),
+		url('../img/woman-kitchen.jpg');
+	background-size:cover;
+	height:450px;
+}
+
+.main-section{
+	height:400px;
+}
+
+.services{
+	background:#f4f4f4;
+	height:450px;
+}
+
+.press img{
+	margin:0 20px;
+}
+
+footer{
+	height:100px;
+	background-color:#1d1d1d;
+}
+
+.hero-content{
+	width: 35%;
+	color: white;
+}
+
+/*Utility Classes*/
+.white{
+	background: white;
+  border-color: white;
 }
